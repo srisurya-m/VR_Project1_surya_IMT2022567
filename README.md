@@ -27,8 +27,8 @@ This project develops a computer vision solution to detect, classify, and segmen
 root/
 ├── haarcascade_frontalface_default.xml    # Haar Cascade file for face detection
 ├── dataset/                               # Folder containing images in 'with_mask' and 'without_mask' subdirectories
-├── MSFD/1/face_crop                       # Training dataset for the U-Net model
-├── MSFD/1/face_crop_segmentation          # Testing dataset for the U-Net model 
+├── MSFD/1/face_crop/                       # Training dataset for the U-Net model
+├── MSFD/1/face_crop_segmentation/          # Testing dataset for the U-Net model 
 ├── task_a_b.ipynb                         # Notebook for Task a (handcrafted features & ML classifiers) and Task b (CNN-based classification)
 └── task_c_d.ipynb                         # Notebook for Task c (traditional segmentation) and Task d (U-Net based segmentation)
 ```
